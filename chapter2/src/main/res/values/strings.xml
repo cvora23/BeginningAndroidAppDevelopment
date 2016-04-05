@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Chapter2</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_101">Activity101</string>
+    <string name="hello">Hello Activity101</string>
+    <string name="OK">OK</string>
+    <string name="Cancel">Cancel</string>
+    <string name="alert_dialog_two_buttons_title">Choose from following companies</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
