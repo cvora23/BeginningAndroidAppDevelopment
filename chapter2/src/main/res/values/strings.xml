@@ -8,6 +8,7 @@
     <string name="alert_dialog_two_buttons_title">Choose from following companies</string>
     <string name="dialog_str">Click to display a dialog</string>
     <string name="progress_dialog_str">Click to display a progress dialog</string>
+    <string name="progress_download_str">Click to Download files</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>

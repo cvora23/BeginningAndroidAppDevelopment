@@ -16,7 +16,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".DialogActivity" />
-        <activity android:name=".SimpleProgressDiaglog"></activity>
+        <activity android:name=".SimpleProgressDialogActivity"/>
     </application>
 
 </manifest>
