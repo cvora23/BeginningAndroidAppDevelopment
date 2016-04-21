@@ -9,7 +9,23 @@
     <string name="dialog_str">Click to display a dialog</string>
     <string name="progress_dialog_str">Click to display a progress dialog</string>
     <string name="progress_download_str">Click to Download files</string>
+    <string name="using_intent_activity1_app_name">UsingIntentActivity1</string>
+    <string name="using_intent_activity2_app_name">UsingIntentActivity2</string>
+    <string name="intent_activity1_hello">This is First Intent Activity</string>
+    <string name="intent_activity2_hello">This is Second Intent Activity</string>
+    <string name="intent_activity3_hello">This is Third Intent Activity</string>
+    <string name="title_activity_using_intent3">UsingIntentActivity3</string>
+    <string name="title_activity_using_intent4">UsingIntentActivity4</string>
+    <string name="title_activity_using_intent5">DataPassingIntentActivity5</string>
 
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hello_blank_fragment_1">Hello blank fragment 1</string>
+    <string name="hello_blank_fragment_2">Hello blank fragment 2</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment1">This is Fragment #1</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment2">This is Fragment #2</string>
+
 </resources>

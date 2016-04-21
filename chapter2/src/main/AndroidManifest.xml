@@ -6,8 +6,7 @@
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:supportsRtl="true"
-        android:theme="@android:style/Theme.Dialog">
+        android:supportsRtl="true">
         <activity android:name=".Activity101">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -16,7 +15,67 @@
             </intent-filter>
         </activity>
         <activity android:name=".DialogActivity" />
-        <activity android:name=".SimpleProgressDialogActivity"/>
+        <activity android:name=".SimpleProgressDialogActivity" />
+        <activity
+            android:name=".UsingIntentActivity1"
+            android:label="@string/using_intent_activity1_app_name">
+            <intent-filter>
+                <action android:name="app.free.chapter2.UsingIntentActivity1" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".UsingIntentActivity2"
+            android:label="@string/using_intent_activity2_app_name">
+            <intent-filter>
+                <action android:name="app.free.chapter2.UsingIntentActivity2" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".UsingIntentActivity3"
+            android:label="@string/title_activity_using_intent3">
+            <intent-filter>
+                <action android:name="app.free.chapter2.UsingIntentActivity2" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".UsingIntentActivity4"
+            android:label="@string/title_activity_using_intent4">
+            <intent-filter>
+                <action android:name="app.free.chapter2.UsingIntentActivity4" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".DataPassingIntentActivity5"
+            android:label="@string/title_activity_using_intent5">
+            <intent-filter>
+                <action android:name="app.free.chapter2.DataPassingIntentActivity5" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SimpleActivityWithFragments" />
+        <activity android:name=".ActivityLoadingFragmentsDynamically" />
+        <activity android:name=".interfragcommn.FragmentsActivity" />
+        <activity android:name=".CallBuiltInAppsUsingIntents.IntentsActivity" />
+        <activity android:name=".IntentFiltersExample.BrowserActivity"
+                  android:label="BrowserActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <action android:name="app.free.chapter2.IntentFiltersExample.BrowserActivity"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="app.free.chapter2.IntentFiltersExample.BrowserActivity"/>
+                <data android:scheme="http"/>
+            </intent-filter>
+
+        </activity>
     </application>
 
 </manifest>
