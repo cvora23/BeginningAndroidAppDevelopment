@@ -2,6 +2,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="app.free.chapter2">
 
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-sdk android:minSdkVersion="16"/>
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -65,17 +69,30 @@
         <activity android:name=".ActivityLoadingFragmentsDynamically" />
         <activity android:name=".interfragcommn.FragmentsActivity" />
         <activity android:name=".CallBuiltInAppsUsingIntents.IntentsActivity" />
-        <activity android:name=".IntentFiltersExample.BrowserActivity"
-                  android:label="BrowserActivity">
+        <activity
+            android:name=".IntentFiltersExample.BrowserActivity"
+            android:label="BrowserActivity">
             <intent-filter>
-                <action android:name="android.intent.action.VIEW"/>
-                <action android:name="app.free.chapter2.IntentFiltersExample.BrowserActivity"/>
-                <category android:name="android.intent.category.DEFAULT"/>
-                <category android:name="app.free.chapter2.IntentFiltersExample.BrowserActivity"/>
-                <data android:scheme="http"/>
-            </intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <action android:name="app.free.chapter2.IntentFiltersExample.BrowserActivity" />
 
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="app.free.chapter2.IntentFiltersExample.BrowserActivity" />
+
+                <data android:scheme="http" />
+            </intent-filter>
         </activity>
+        <activity
+            android:name=".Notifications.NotificationView"
+            android:label="Details of notification">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Notifications.NotificationActivity" />
+
     </application>
 
 </manifest>
