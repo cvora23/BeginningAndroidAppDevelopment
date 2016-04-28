@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.cricmybrain.chapter3">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".LinearLayoutEx1" />
+        <activity android:name=".LinearLayoutEx2" />
+        <activity android:name=".TableLayout" />
+        <activity android:name=".RelativeLayoutEx1" />
+        <activity android:name=".FrameLayoutEx1" />
+        <activity android:name=".ScrollViewActivityEx1" />
+        <activity android:name=".AnchoringViewsEx1" />
+        <activity android:name=".ActivityLifeCycleWithOrientationChanges" />
+        <activity android:name=".DetectOrientationChanges" />
+        <activity android:name=".ControllingOrientationOfActivity" />
+        <activity android:name=".ShowingHidingActionBar" />
+        <activity android:name=".ActionItemsActionBar" />
+        <activity android:name=".CreateUiViaCode" />
+        <activity android:name=".RegisteringForUiEventsInActivity" />
+        <activity android:name=".RegisteringForUiEventsInViews"></activity>
+    </application>
+
+</manifest>
