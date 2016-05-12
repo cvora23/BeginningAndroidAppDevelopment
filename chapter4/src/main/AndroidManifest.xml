@@ -11,7 +11,12 @@
         <activity android:name=".BasicViewsInActivity" />
         <activity android:name=".ProgressBarInActivity" />
         <activity android:name=".AutoCompletTextViewEg" />
-        <activity android:name=".TimePickerDatePickerViewsInActivity"></activity>
+        <activity android:name=".TimePickerDatePickerViewsInActivity" />
+        <activity android:name=".SimpleListActivity" />
+        <activity android:name=".SimpleSpinnerView" />
+        <activity android:name=".ListFragmentActivity" />
+        <activity android:name=".DialogFragmentActivity" />
+        <activity android:name=".PreferencesFragmentExampleActivity"></activity>
     </application>
 
 </manifest>

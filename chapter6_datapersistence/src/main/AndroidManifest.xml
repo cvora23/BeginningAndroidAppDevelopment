@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cvora.chapter6_datapersistence">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".AppPreferenceActivity">
+            <intent-filter>
+                <action android:name="cvora.chapter6_datapersistence.AppPreferenceActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".UsingPreferencesActivity" />
+        <activity android:name=".PersistingDataToFiles_SaveToInternalStorage_Activity" />
+        <activity android:name=".UseStaticResource_Activity" />
+        <activity android:name=".DatabasesActivity" />
+        <activity android:name=".BundlingDatabase_Activity"></activity>
+    </application>
+
+</manifest>
