@@ -18,6 +18,7 @@
             <option value="$PROJECT_DIR$/chapter5" />
             <option value="$PROJECT_DIR$/chapter6_datapersistence" />
             <option value="$PROJECT_DIR$/chapter7_content_providers" />
+            <option value="$PROJECT_DIR$/chapter8_messaging" />
           </set>
         </option>
         <option name="myModules">
@@ -31,6 +32,7 @@
             <option value="$PROJECT_DIR$/chapter5" />
             <option value="$PROJECT_DIR$/chapter6_datapersistence" />
             <option value="$PROJECT_DIR$/chapter7_content_providers" />
+            <option value="$PROJECT_DIR$/chapter8_messaging" />
           </set>
         </option>
       </GradleProjectSettings>
