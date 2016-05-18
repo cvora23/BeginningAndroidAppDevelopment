@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cvora.chapter10_networking">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".HttpNetworkActivity" />
+        <activity android:name=".ConsumingJSON_Service_Activity" />
+        <activity android:name=".SocketsActivity"></activity>
+    </application>
+
+</manifest>
