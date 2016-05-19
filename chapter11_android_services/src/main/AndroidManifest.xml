@@ -20,14 +20,15 @@
             android:enabled="true"
             android:exported="true">
             <intent-filter>
-                <action android:name="cvora.chapter11_developing_android_services.MyIntentService"/>
+                <action android:name="cvora.chapter11_developing_android_services.MyIntentService" />
             </intent-filter>
+        </service>
+        <service
+            android:name=".MySimpleServiceWithBinder"
+            android:enabled="true"
+            android:exported="true"></service>
 
-        </service>
-        <service android:name=".MySimpleServiceWithBinder"
-            android:exported="true"
-            android:enabled="true">
-        </service>
+        <activity android:name=".ThreadingActivity"></activity>
     </application>
 
 </manifest>
